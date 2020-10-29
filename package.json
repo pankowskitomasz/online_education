@@ -1,0 +1,26 @@
+{
+  "name": "online_education",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankowskitomasz/online_education.git"
+  },
+  "author": "Tomasz Pankowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankowskitomasz/online_education/issues"
+  },
+  "homepage": "https://github.com/pankowskitomasz/online_education#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.2"
+  }
+}
