@@ -6,10 +6,11 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="node_modules/material-components-web/dist/material-components-web.min.css">
-    <title>Online Education | Coming soon!</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Online Education | Home</title>
 </head>
-<body>
-    <header class="mdc-top-app-bar mdc-theme--background position-absolute bg-white">
+<body>    
+    <header class="mdc-top-app-bar border-none bg-white border-b border-dark shadow">
         <nav class="mdc-top-app-bar__row">
             <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
                 <a href="index.html" class="font-logo">
@@ -19,28 +20,397 @@
                     </span>
                 </a>
             </div>
+            <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end d-block desktop-expand">
+                <button class="mdc-top-app-bar__action-item mdc-icon-button nav-menu-icon">
+                    <div class="mdc-icon-button__ripple"></div>
+                    <span class="fa fa-bars text-blue"></span>                    
+                </button>
+                <div class="nav-menu text-right">
+                    <a href="index.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Home</span>                    
+                    </a>
+                    <a href="courses.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Courses</span>                    
+                    </a>
+                    <a href="teachers.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Teachers</span>                    
+                    </a>
+                    <a href="about.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">About</span>                    
+                    </a>
+                    <a href="contact.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Contact</span>                    
+                    </a>
+                    <a href="user.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Login</span>                    
+                    </a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="comingsoon-s1 mdc-layout-grid mdc-layout-grid__inner">
-            <div class="mdc-layout-grid__cell--span-12  mdc-layout-grid__cell--align-middle text-center">
-                <div class="mdc-typography--headline5 text-white text-shadow-dark">
-                    <h2 class="font-bold">Coming soon.</h2>
-                    <p>
-                        Hi, we are not ready yet, however we are staring soon.<br>
-                        Please visit us again in a while.
+        <section class="index-s1 mdc-layout-grid mdc-layout-grid__inner tablet-minh-50vh border-b border-dark">
+            <div class="mdc-layout-grid__cell--span-12  mdc-layout-grid__cell--align-bottom text-center">
+                <div class="mdc-layout-grid__inner pt-header">
+                    <div class="mdc-layout-grid__cell--span-12 text-white text-shadow-dark">
+                        <h2 class="font-bold m-0">    
+                            Choose Course
+                        </h2>
+                        <h4 class="m-0">
+                            And start learning now our most popular courses!
+                        </h4>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                       <div class="mdc-card--outlined text-center shadow">                                
+                            <a href="courses.html#languages" class="bg-pink text-white d-block opacity-7 hover-opacity p-2">
+                                <div>
+                                    <span class="fa fa-language icon-big"></span>
+                                </div>
+                                <p class="text-lg m-1 font-bold font-logo">
+                                    Languages
+                                </p>
+                            </a>
+                        </div>                       
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                        <div class="mdc-card--outlined text-center shadow">
+                            <a href="courses.html#informatics" class="bg-purple text-white d-block opacity-7 hover-opacity p-2">                                
+                                <div>
+                                    <span class="fa fa-desktop icon-big"></span>
+                                </div>
+                                <p class="text-lg m-1 font-bold font-logo">
+                                    Informatics
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                        <div class="mdc-card--outlined text-center shadow">
+                            <a href="courses.html#graphics" class="bg-orange text-white d-block opacity-7 hover-opacity p-2">                                                             
+                                <div>
+                                    <span class="fa fa-paint-brush icon-big"></span>
+                                </div>
+                                <p class="text-lg m-1 font-bold font-logo">
+                                    Graphics
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                        <div class="mdc-card--outlined text-center shadow">
+                            <a href="courses.html#business" class="bg-green text-white d-block opacity-7 hover-opacity p-2">                                                                                            
+                                <div>
+                                    <span class="fa fa-money icon-big"></span>
+                                </div>
+                                <p class="text-lg m-1 font-bold font-logo">
+                                    Business
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section class="index-s2 mdc-layout-grid mdc-layout-grid__inner minh-50vh p-5">
+            <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-middle text-center mb-3">
+                <h3 class="font-bold m-0">    
+                    POPULAR TOPICS &amp; COURSES
+                </h3>
+                <p class="m-0 text-md">
+                    Select one of categories below and discover amazing 
+                    online courses. 
+                </p>
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-blue">                                
+                     <a href="courses.html#art" class="text-blue bg-white d-block hover-blue p-2">
+                        <div>
+                            <span class="fa fa-resistance icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Art
+                        </p>
+                    </a>
+                </div>                       
+            </div>             
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-purple">                                
+                     <a href="courses.html#business" class="text-purple bg-white d-block hover-purple p-2">
+                        <div>
+                            <span class="fa fa-money icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Business
+                        </p>
+                    </a>
+                </div>                       
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-pink">                                
+                     <a href="courses.html#graphics" class="text-pink bg-white d-block hover-pink p-2">
+                        <div>
+                            <span class="fa fa-paint-brush icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Graphics
+                        </p>
+                    </a>
+                </div>                       
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-orange">                                
+                     <a href="courses.html#informatics" class="text-orange bg-white d-block hover-orange p-2">
+                        <div>
+                            <span class="fa fa-desktop icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Informatics
+                        </p>
+                    </a>
+                </div>                       
+            </div>       
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-green">                                
+                     <a href="courses.html#languages" class="text-green bg-white d-block hover-green p-2">
+                        <div>
+                            <span class="fa fa-language icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Languages
+                        </p>
+                    </a>
+                </div>                       
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-blue">                                
+                     <a href="courses.html#photography" class="text-blue bg-white d-block hover-blue p-2">
+                        <div>
+                            <span class="fa fa-camera icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Photography
+                        </p>
+                    </a>
+                </div>                       
+            </div>      
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-purple">                                
+                     <a href="courses.html#technical" class="text-purple bg-white d-block hover-purple p-2">
+                        <div>
+                            <span class="fa fa-gears icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Technical
+                        </p>
+                    </a>
+                </div>                       
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center border-pink">                                
+                     <a href="courses.html#video" class="text-pink bg-white d-block hover-pink p-2">
+                        <div>
+                            <span class="fa fa-video-camera icon-big"></span>
+                        </div>
+                        <p class="text-lg m-1 font-bold font-logo">
+                            Video
+                        </p>
+                    </a>
+                </div>                       
+            </div>
+        </section>        
+        <section class="index-s3 mdc-layout-grid mdc-layout-grid__inner minh-25vh p-5 bg-dark border-t border-b border-gray">
+            <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-middle text-center text-white">
+                <h3 class="font-bold m-0 mb-2">    
+                    Your place to learn real world skills online
+                </h3>
+                <p class="m-0 text-md mb-2">
+                    Teacher Certification Students and Candidates: the Office of Teaching Initiatives 
+                    provides information about education and other requirements for a teaching 
+                    certificate, including guidance on distance education options.
+                </p>
+                <a href="user.html" class="mdc-button mdc-button--raised">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">
+                        Sign in
+                    </span>
+                </a>
+            </div>
+        </section>
+        <section class="index-s4 mdc-layout-grid mdc-layout-grid__inner minh-50vh p-5">
+            <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-middle text-center">
+                <h3 class="font-bold m-0 mb-2">    
+                    Meet Our Teachers
+                </h3>
+                <p class="m-0 text-md mb-2">
+                    Prepare to achieve your goals with our tutors
+                </p>
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+               <div class="mdc-card--outlined text-center shadow">                                
+                    <a href="teachers.html#jane-cunn" class="bg-white text-dark d-block opacity-8 hover-opacity">
+                        <div>
+                            <img src="img/teachers/teacher_1.jpg" alt="teacher" class="img-fit-25vh">
+                        </div>
+                        <div class="p-1 pb-0">
+                            <p class="text-lg m-0 mb-1 font-bold text-dark">
+                                Jane Cunn
+                            </p>                        
+                            <p class="text-md font-thin font-italic text-gray border-t border-gray w-100">
+                                English teacher
+                            </p>
+                        </div>
+                    </a>
+                </div>                       
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center shadow">                                
+                     <a href="teachers.html#mike-morris" class="bg-white text-dark d-block opacity-8 hover-opacity">
+                         <div>
+                             <img src="img/teachers/teacher_2.jpg" alt="teacher" class="img-fit-25vh">
+                         </div>
+                         <div class="p-1 pb-0">
+                             <p class="text-lg m-0 mb-1 font-bold text-dark">
+                                 Mike Morris
+                             </p>                        
+                             <p class="text-md font-thin font-italic text-gray border-t border-gray w-100">
+                                 Informatics teacher
+                             </p>
+                         </div>
+                     </a>
+                 </div>                       
+             </div>
+             <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+                <div class="mdc-card--outlined text-center shadow">                                
+                     <a href="teachers.html#kate-hills" class="bg-white text-dark d-block opacity-8 hover-opacity">
+                         <div>
+                             <img src="img/teachers/teacher_3.jpg" alt="teacher" class="img-fit-25vh">
+                         </div>
+                         <div class="p-1 pb-0">
+                             <p class="text-lg m-0 mb-1 font-bold text-dark">
+                                Kate Hills
+                             </p>                        
+                             <p class="text-md font-thin font-italic text-gray border-t border-gray w-100">
+                                 Art teacher
+                             </p>
+                         </div>
+                     </a>
+                 </div>                       
+            </div>
+            <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop">
+               <div class="mdc-card--outlined text-center shadow">                                
+                    <a href="teachers.html#john-deer" class="bg-white text-dark d-block opacity-8 hover-opacity">
+                        <div>
+                            <img src="img/teachers/teacher_4.jpg" alt="teacher" class="img-fit-25vh">
+                        </div>
+                        <div class="p-1 pb-0">
+                            <p class="text-lg m-0 mb-1 font-bold text-dark">
+                               John Deer
+                            </p>                        
+                            <p class="text-md font-thin font-italic text-gray border-t border-gray w-100">
+                                Graphics teacher
+                            </p>
+                        </div>
+                    </a>
+                </div>                       
+            </div>
+            <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-middle text-center">                
+                <a href="teachers.html" class="mdc-button mdc-button--raised">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">
+                        See more
+                    </span>
+                </a>
+            </div>
+        </section>  
+        <section class="index-s5 mdc-layout-grid mdc-layout-grid__inner minh-25vh p-5 bg-purple border-t border-gray">
+            <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-middle text-center text-white">
+                <div class="w-75 mx-auto">
+                    <h3 class="font-bold m-0 mb-2">    
+                        Contact Us
+                    </h3>
+                    <p class="m-0 text-md mb-2">
+                        There are many ways to stay connected with us. You can call, write, or sign up 
+                        for alerts and emails. Find out how to get help and ways to talk to us!
                     </p>
+                    <ul class="mdc-list mx-auto text-center">
+                        <li class="mdc-list-item d-flex">
+                            <span class="mdc-list-item__text mx-auto text-white font-bold">
+                                Online Education
+                            </span>
+                        </li>
+                        <li class="mdc-list-item d-flex">
+                            <span class="mdc-list-item__text mx-auto text-white font-bold">
+                                29 Washington Avenue
+                            </span>
+                        </li>
+                        <li class="mdc-list-item d-flex">
+                            <span class="mdc-list-item__text mx-auto text-white font-bold">
+                                Albany, NY 12234
+                            </span>
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="mdc-button mdc-button--raised">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label">
+                            Contact now
+                        </span>
+                    </a>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="mdc-layout-grid mdc-layout-grid__inner bg-blue text-white text-shadow-dark">
-        <small class="mdc-layout-grid__cell--span-12 text-center">  
-            Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
-            <a class="text-white link" href="privacy.html">Privacy policy</a>
-        </small>
+    <footer class="mdc-layout-grid mdc-layout-grid__inner bg-blue text-white text-shadow-dark p-0 border-t border-dark">
+        <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-top text-center tablet-text-left p-2 pb-0">
+            <img class="navbar-logo filter-brightness" src="img/navbar_logo.png" alt="logo">
+            <div class="font-bold text-shadow-light">
+                Education
+            </div>
+            <small>
+                <address class="text-white font-thin">
+                    29 Washington Avenue<br/>
+                    Albany, NY 12234<br/>
+                    +(01) 765 324 111
+                </address>
+            </small>
+        </div>
+        <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-top p-2 pb-0">
+            <ul class="list-unstyled font-bold text-center tablet-text-right p-0">
+                <li>
+                    <a href="index.html" class="text-white opacity-7 hover-opacity">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html" class="text-white opacity-7 hover-opacity">Courses</a>
+                </li>
+                <li>
+                    <a href="teachers.html" class="text-white opacity-7 hover-opacity">Teachers</a>
+                </li>
+                <li>
+                    <a href="about.html" class="text-white opacity-7 hover-opacity">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="text-white opacity-7 hover-opacity">Contact</a>
+                </li>
+                <li>
+                    <a href="user.html" class="text-white opacity-7 hover-opacity">Login</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-top text-center text-white border-t border-white m-1">
+            <small class="mdc-layout-grid__cell--span-12 text-center">  
+                Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
+                <a class="text-white link" href="privacy.html">Privacy policy</a>
+            </small>
+        </div>
+        
     </footer>
     <script src="node_modules/material-components-web/dist/material-components-web.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

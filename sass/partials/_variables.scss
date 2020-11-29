@@ -1,16 +1,44 @@
 $backdrop__filter--privacy: blur(10px) contrast(25%);
 $bg__blend--type: multiply;
+$bg__blend--multiply: multiply;
+$bg__about-img: "../img/index/bg_1.jpg";
 $bg__classes:
     "error",
     "comingsoon",
-    "privacy";
+    "privacy",
+    "index",
+    "courses",
+    "teachers",
+    "about",
+    "contact",
+    "user";
 $bg__comingsoon-img: "../img/education.jpg";
+$bg__contact-img:
+    "../img/index/bg_1.jpg",
+    "../img/index/bg_3.jpg";
+$bg__courses-img: "../img/index/bg_1.jpg";
 $bg__error-img: "../img/education.jpg";
+$bg__index-img:
+    "../img/index/bg_1.jpg",
+    "../img/index/bg_4.jpg",
+    "../img/index/bg_2.jpg",
+    "",
+    "../img/index/bg_3.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__teachers-img: "../img/index/bg_1.jpg";
+$bg__user-img:
+    "../img/index/bg_1.jpg",
+    "../img/index/bg_3.jpg";
 $bg__aoa:
     $bg__error-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__privacy-img,
+    $bg__index-img,
+    $bg__courses-img,
+    $bg__teachers-img,
+    $bg__about-img,
+    $bg__contact-img,
+    $bg__user-img;
 $body__min-height: 100%;
 $border__param: 1px solid;
 $border__radius: 30px;
@@ -18,13 +46,26 @@ $color__bg-1: #438dbe;
 $color__black: #121212;
 $color__blue: #0072bc;
 $color__dark: #333;
+$color__dark-blue: darken($color__blue,30%);
+$color__gray: #cdcdcd;
+$color__dark-gray: #777;
+$color__green: #8dc63f;
+$color__orange: #f36f33;
+$color__pink: #b43e92;
+$color__purple: #833f94;
 $color__white: #fff;
 $color__transparent: transparent;
+$filter-brightness: brightness(10);
 $font-logo__family: 'Open Sans';
 $font-logo__size: 32px;
 $font-main__family: 'Open Sans';
 $font-main__size: 16px;
+$header__height: 64px;
+$icon-bg__size: 40px;
 $section__min-height: 100vh;
+$text-md: 16px;
+$text-lg: 20px;
 $box_shadow: 0 0 3px $color__dark;
+$text__shadow: 0 0 3px $color__dark;
 $text__shadow--dark: 0 0 3px $color__dark;
 $text__shadow--light: 0 0 3px $color__white;

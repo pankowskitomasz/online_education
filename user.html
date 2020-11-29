@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/material-components-web/dist/material-components-web.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Online Education | Sign in</title>
+</head>
+<body>    
+    <header class="mdc-top-app-bar border-none bg-white border-b border-dark shadow">
+        <nav class="mdc-top-app-bar__row">
+            <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <a href="index.html" class="font-logo">
+                    <img class="navbar-logo float-left" src="img/navbar_logo.png" alt="logo">
+                    <span class="font-bold text-blue text-shadow-light">
+                        Education
+                    </span>
+                </a>
+            </div>
+            <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end d-block desktop-expand">
+                <button class="mdc-top-app-bar__action-item mdc-icon-button nav-menu-icon">
+                    <div class="mdc-icon-button__ripple"></div>
+                    <span class="fa fa-bars text-blue"></span>                    
+                </button>
+                <div class="nav-menu text-right">
+                    <a href="index.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Home</span>                    
+                    </a>
+                    <a href="courses.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Courses</span>                    
+                    </a>
+                    <a href="teachers.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Teachers</span>                    
+                    </a>
+                    <a href="about.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">About</span>                    
+                    </a>
+                    <a href="contact.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Contact</span>                    
+                    </a>
+                    <a href="user.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-blue">Login</span>                    
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="minh-100vh">
+        <section class="user-s1 mdc-layout-grid mdc-layout-grid__inner minh-25vh">
+            <div class="mdc-layout-grid__cell--span-12  mdc-layout-grid__cell--align-bottom text-center">
+                <div class="mdc-layout-grid__inner pt-header">
+                    <div class="mdc-layout-grid__cell--span-12 text-white text-shadow-dark">
+                        <h2 class="font-bold m-0">    
+                            Sign in
+                        </h2>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section class="user-s2 mdc-layout-grid minh-75vh bg-purple border-t border-b border-dark">
+            <div class="mdc-layout-grid__inner minh-75vh">
+                <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-middle">
+                    <form class="text-md border border-purple p-2 mx-auto phone-w-75 tablet-w-50 desktop-w-35 bg-white">
+                        <label class="text-purple mb-1 font-bold d-block">Login</label>
+                        <input type="text" 
+                            class="form-control w-100 text-md mb-2"
+                            maxlength="80"
+                            name="flogin"
+                            placeholder="Login...">
+                        <label class="text-purple mb-1 font-bold d-block">Password</label>
+                        <input type="password" 
+                            class="form-control w-100 text-md mb-2"
+                            maxlength="80"
+                            name="flast"
+                            placeholder="Password...">
+                        <div class="text-center">
+                            <input type="reset"
+                                class="mdc-button bg-purple text-white"
+                                value="Clear">
+                            <input type="submit"
+                                class="mdc-button bg-purple text-white"
+                                value="Accept">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mdc-layout-grid mdc-layout-grid__inner bg-blue text-white text-shadow-dark p-0">
+        <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-top text-center tablet-text-left p-2 pb-0">
+            <img class="navbar-logo filter-brightness" src="img/navbar_logo.png" alt="logo">
+            <div class="font-bold text-shadow-light">
+                Education
+            </div>
+            <small>
+                <address class="text-white font-thin">
+                    29 Washington Avenue<br/>
+                    Albany, NY 12234<br/>
+                    +(01) 765 324 111
+                </address>
+            </small>
+        </div>
+        <div class="mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-top p-2 pb-0">
+            <ul class="list-unstyled font-bold text-center tablet-text-right p-0">
+                <li>
+                    <a href="index.html" class="text-white opacity-7 hover-opacity">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html" class="text-white opacity-7 hover-opacity">Courses</a>
+                </li>
+                <li>
+                    <a href="teachers.html" class="text-white opacity-7 hover-opacity">Teachers</a>
+                </li>
+                <li>
+                    <a href="about.html" class="text-white opacity-7 hover-opacity">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="text-white opacity-7 hover-opacity">Contact</a>
+                </li>
+                <li>
+                    <a href="user.html" class="text-white opacity-7 hover-opacity">Login</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mdc-layout-grid__cell--span-12 mdc-layout-grid__cell--align-top text-center text-white border-t border-white m-1">
+            <small class="mdc-layout-grid__cell--span-12 text-center">  
+                Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
+                <a class="text-white link" href="privacy.html">Privacy policy</a>
+            </small>
+        </div>
+        
+    </footer>
+    <script src="node_modules/material-components-web/dist/material-components-web.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
