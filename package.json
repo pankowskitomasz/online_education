@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "postcss css/material-components-web.min.css -o css/mdc.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,12 @@
     "gulp-minify-css": "^1.2.4",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.5.1",
-    "material-components-web": "^7.0.0"
+    "material-components-web": "^7.0.0",
+    "postcss-cli": "^8.3.1",
+    "purgecss": "^4.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss-loader": "^5.0.0"
   }
 }
